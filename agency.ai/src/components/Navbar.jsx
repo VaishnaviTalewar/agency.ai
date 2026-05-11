@@ -4,10 +4,8 @@ import Toggle from "./Toggle.jsx";
 
 import { motion } from "motion/react";
 
-
 const Navbar = ({ theme, setTheme }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-
 
   return (
     <motion.div
@@ -19,7 +17,6 @@ const Navbar = ({ theme, setTheme }) => {
       {/* LEFT: menu + logo */}
       <div className="flex items-center gap-3">
         <img
-    
           src={theme === "dark" ? assets.logo_dark : assets.logo}
           alt=""
           className="w-32 sm:w-40"

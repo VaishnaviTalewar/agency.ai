@@ -9,7 +9,7 @@ const Contact = () => {
 
     const formData = new FormData(event.target);
 
-    // Paste your Web3Forms Access Key below
+    // Web3Forms Access Key 
     formData.append("access_key", "a22e941f-c14f-40e7-8173-097bba73c2a7");
 
     try {
